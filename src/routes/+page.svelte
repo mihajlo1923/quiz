@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Pitanje from "./Pitanje.svelte";
+
+</script>
+<Pitanje
+    question='Ko je poslednji sampion formule 1'
+    correctAnswer='Max Versappen'
+    incorrectAnswers={["Lewis Hamilton","Fernando Alonso","Carlos Sainz"]}
+/>
+
